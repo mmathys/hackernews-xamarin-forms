@@ -1,4 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:HackerNewsXamarinForms" x:Class="HackerNewsXamarinForms.HackerNewsXamarinFormsPage">
-	<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:HackerNewsXamarinForms" 
+		x:Class="HackerNewsXamarinForms.HackerNewsXamarinFormsPage"
+		Title="Hacker News">
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness"
+			iOS="0,20,0,0"
+			Android="0,0,0,0"/>
+	</ContentPage.Padding>
+	<ContentPage.Content>
+		<AbsoluteLayout>
+			<ListView x:Name="listView"
+		            ItemsSource="{Binding .}" />
+			<ActivityIndicator 
+					IsRunning= "true"
+					IsVisible= "true"
+					AbsoluteLayout.LayoutFlags="PositionProportional"
+					AbsoluteLayout.LayoutBounds="0.5,0.5,-1,-1" />
+		</AbsoluteLayout>
+	</ContentPage.Content>
 </ContentPage>
