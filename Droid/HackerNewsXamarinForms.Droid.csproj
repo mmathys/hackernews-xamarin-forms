@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CF66FE92-68E4-4029-A1FA-3640FA42D4FD}</ProjectGuid>
+    <ProjectGuid>{F5A54A16-AF26-4C8A-A9F2-8C68136614FF}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>HackerNewsXamarin.Forms.Droid</RootNamespace>
-    <AssemblyName>HackerNewsXamarin.Forms.Droid</AssemblyName>
+    <RootNamespace>HackerNewsXamarinForms.Droid</RootNamespace>
+    <AssemblyName>HackerNewsXamarinForms.Droid</AssemblyName>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -42,9 +42,9 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HackerNewsXamarin.Forms.csproj">
-      <Project>{7F2BA96A-A289-412C-8613-6A5DD9C6D601}</Project>
-      <Name>HackerNewsXamarin.Forms</Name>
+    <ProjectReference Include="..\HackerNewsXamarinForms.csproj">
+      <Project>{E4BAE0FC-5B57-4873-B480-78549619F8B0}</Project>
+      <Name>HackerNewsXamarinForms</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

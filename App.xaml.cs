@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace HackerNewsXamarin.Forms
+namespace HackerNewsXamarinForms
 {
 	public partial class App : Application
 	{
@@ -8,7 +8,7 @@ namespace HackerNewsXamarin.Forms
 		{
 			InitializeComponent();
 
-			MainPage = new HackerNewsXamarin.FormsPage();
+			MainPage = new HackerNewsXamarinFormsPage();
 		}
 
 		protected override void OnStart()

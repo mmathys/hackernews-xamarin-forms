@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProjectGuid>{F18728AE-720A-45B1-887D-458487674696}</ProjectGuid>
+    <ProjectGuid>{DEC94584-6551-41D8-B767-FC69A65E5CFB}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HackerNewsXamarin.Forms.iOS</RootNamespace>
-    <AssemblyName>HackerNewsXamarin.Forms.iOS</AssemblyName>
+    <RootNamespace>HackerNewsXamarinForms.iOS</RootNamespace>
+    <AssemblyName>HackerNewsXamarinForms.iOS</AssemblyName>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
@@ -104,9 +104,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HackerNewsXamarin.Forms.csproj">
-      <Project>{7F2BA96A-A289-412C-8613-6A5DD9C6D601}</Project>
-      <Name>HackerNewsXamarin.Forms</Name>
+    <ProjectReference Include="..\HackerNewsXamarinForms.csproj">
+      <Project>{E4BAE0FC-5B57-4873-B480-78549619F8B0}</Project>
+      <Name>HackerNewsXamarinForms</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

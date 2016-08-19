@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace HackerNewsXamarin.Forms.iOS
+namespace HackerNewsXamarinForms.iOS
 {
 	public class Application
 	{

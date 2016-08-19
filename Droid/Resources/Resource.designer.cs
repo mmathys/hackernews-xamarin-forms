@@ -1,4 +1,4 @@
-﻿namespace HackerNewsXamarin.Forms.Droid
+﻿namespace HackerNewsXamarinForms.Droid
 {
 
 

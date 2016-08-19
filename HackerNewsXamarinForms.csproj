@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7F2BA96A-A289-412C-8613-6A5DD9C6D601}</ProjectGuid>
+    <ProjectGuid>{E4BAE0FC-5B57-4873-B480-78549619F8B0}</ProjectGuid>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UseMSBuildEngine>true</UseMSBuildEngine>
     <OutputType>Library</OutputType>
-    <RootNamespace>HackerNewsXamarin.Forms</RootNamespace>
-    <AssemblyName>HackerNewsXamarin.Forms</AssemblyName>
+    <RootNamespace>HackerNewsXamarinForms</RootNamespace>
+    <AssemblyName>HackerNewsXamarinForms</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
   </PropertyGroup>
@@ -31,14 +31,14 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
-    <EmbeddedResource Include="HackerNewsXamarin.FormsPage.xaml" />
+    <EmbeddedResource Include="HackerNewsXamarinFormsPage.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="HackerNewsXamarin.FormsPage.xaml.cs">
-      <DependentUpon>HackerNewsXamarin.FormsPage.xaml</DependentUpon>
+    <Compile Include="HackerNewsXamarinFormsPage.xaml.cs">
+      <DependentUpon>HackerNewsXamarinFormsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
