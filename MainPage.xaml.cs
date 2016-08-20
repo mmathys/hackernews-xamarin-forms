@@ -1,26 +1,25 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using Xamarin.Forms;
 
 namespace HackerNewsXamarinForms
 {
-	public partial class HackerNewsXamarinFormsPage : ContentPage
+	public partial class MainPage : ContentPage
 	{
 		public ObservableCollection<string> ListViewItems { get; set; }
-
-		public HackerNewsXamarinFormsPage()
+		public bool IsLoading { get; private set; }
+		public MainPage()
 		{
+			this.IsLoading = true;
 			InitializeComponent();
 			ListViewItems = new ObservableCollection<string> { "one", "two", "three" };
-			BindingContext = this;
+			postsView.ItemsSource = ListViewItems;
 		}
 
-		public void OnAddButtonClicked(object sender, EventArgs e)
+		void Handle_Clicked(object sender, EventArgs e)
 		{
-			ListViewItems.Add(DateTime.Now.ToString());
-			// OnPropertyChanged("ListViewItems");
+			ListViewItems.Add("new item");
 		}
-
 	}
 }
-

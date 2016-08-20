@@ -8,7 +8,7 @@ namespace HackerNewsXamarinForms
 		{
 			InitializeComponent();
 
-			MainPage = new HackerNewsXamarinFormsPage();
+			MainPage = new MainPage();
 		}
 
 		protected override void OnStart()

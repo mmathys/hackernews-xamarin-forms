@@ -9,15 +9,10 @@
 			iOS="0,20,0,0"
 			Android="0,0,0,0"/>
 	</ContentPage.Padding>
-	<ContentPage.Content>
-		<AbsoluteLayout>
-			<ListView x:Name="listView"
-		            ItemsSource="{Binding .}" />
-			<ActivityIndicator 
-					IsRunning= "true"
-					IsVisible= "true"
-					AbsoluteLayout.LayoutFlags="PositionProportional"
-					AbsoluteLayout.LayoutBounds="0.5,0.5,-1,-1" />
-		</AbsoluteLayout>
-	</ContentPage.Content>
+
+	<StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Fill">
+        <Button Text="Add" Clicked="OnAddButtonClicked" />
+        <ListView ItemsSource="{Binding ListViewItems}" />
+    </StackLayout>
+
 </ContentPage>
