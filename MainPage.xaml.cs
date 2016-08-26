@@ -22,7 +22,7 @@ namespace HackerNewsXamarinForms
 			this.IsLoading = true;
 			this.Title = "Hacker News Xamarin.Forms";
 			InitializeComponent();
-			ListViewItems = new ObservableCollection<string> {};
+			ListViewItems = new ObservableCollection<string> { };
 			HackerNewsItems = new ObservableCollection<HackerNewsItem> { };
 			postsView.ItemsSource = ListViewItems;
 			postsView.ItemSelected += PostClicked;
