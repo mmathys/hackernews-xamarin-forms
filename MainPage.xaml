@@ -17,6 +17,8 @@
 		<AbsoluteLayout VerticalOptions="FillAndExpand"
             HorizontalOptions="FillAndExpand">
 			<ListView x:Name = "postsView"
+				AbsoluteLayout.LayoutBounds=".5,.5,1,1"
+				AbsoluteLayout.LayoutFlags="All"
 				IsPullToRefreshEnabled = "true"/>
 			<ActivityIndicator x:Name="indicator"
 				AbsoluteLayout.LayoutFlags="PositionProportional"
